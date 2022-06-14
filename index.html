@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="blue"></div>
+        <div class="wrapper_inner">
+            <div class="date">
+                <p class="date_value" id="date">Today</p>
+            </div>
+            <div class="message_wrapper">
+                <div class="message">
+                    <div class="author_wrapper">
+                        <p class="author" id="author">
+                            Author VIP
+                        </p>
+                    </div>
+                    <div class="content_wrapper">
+                        <p class="content" id="content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi, consequatur
+                            cum debitis dolores facilis illo itaque nesciunt nostrum, quibusdam quidem quisquam
+                            quo quod quos sequi velit veniam vero voluptatibus.
+                            <span class="createdAt_wrapper">
+                                <img src="img/Eye.svg" alt="#" class="eye">
+                                <span class="views" id="views">2</span>
+                                <span class="createdAt" id="createdAt">10:28</span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <img alt="#" src="img/1-3.svg" class="corner">
+                <div class="share_bubble">
+                    <img src="img/Share.svg" alt="#" class="share">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="admin_menu">
+        <div class="button" id="admin">
+            Admin Menu
+        </div>
+        <div class="input_list" id="inputList">
+            <input type="text" id="authorInput" placeholder="Channel Name">
+            <textarea type="text" id="contentInput" placeholder="Message Content"></textarea>
+            <input type="text" id="createdAtInput" placeholder="Message Date">
+            <input type="text" id="viewsInput" placeholder="Message Views">
+            <input type="text" id="lastMessageDateInput" placeholder="Last Message Date">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
